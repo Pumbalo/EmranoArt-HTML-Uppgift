@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fontawesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+
+    <title>EmranoArt</title>
+
+    <script src="./script/imageGrabber.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <h1 class="logo">EmranoArt</h1>
+        <ul class="nav-link">
+          <li><a href="#" class="nav-item active uppercase">hem</a></li>
+          <li><a href="#" class="nav-item uppercase">portfolio</a></li>
+          <li><a href="#" class="nav-item uppercase">kontakt</a></li>
+        </ul>
+        <button class="btn">Boka Tid</button>
+        <!-- Hamburger Menu -->
+        <div class="hamburger-toggle">
+          <input class="hamburger-input" type="checkbox" />
+          <div class="hamburger-container">
+            <i class="hamburger-line"></i>
+            <i class="hamburger-line"></i>
+            <i class="hamburger-line"></i>
+          </div>
+          <ul class="hamburger-menu">
+            <li><a href="#" class="hamburger-item uppercase">hem</a></li>
+            <li><a href="#" class="hamburger-item uppercase">portfolio</a></li>
+            <li><a href="#" class="hamburger-item uppercase">kontakt</a></li>
+            <button class="btn hamburger-btn">Boka Tid</button>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <header class="hero-container">
+      <div class="content">
+        <h2 class="header-title capitalize">art for your body</h2>
+        <h4 class="header-sub capitalize">
+          your body, your canvas, your rules
+        </h4>
+      </div>
+    </header>
+    <section class="about">
+      <div class="about-image"></div>
+      <div class="about-emran">
+        <h4 class="text-mid">Emran Kamberi</h4>
+        <svg
+          width="346"
+          height="74"
+          viewBox="0 0 346 74"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M150.652 10.365C142.078 11.5471 129.636 16.7331 107.803 28.2254C91.1857 36.9723 83.9809 40.4114 75.5661 43.6132C72.3096 44.8523 71.0235 45.1799 71.0235 44.7706C71.0235 44.2775 68.2082 41.4811 66.3924 40.171C64.3918 38.7271 60.8154 36.8107 57.9439 35.6433C50.7789 32.7309 45.3138 31.5627 38.8871 31.5698C33.5131 31.5759 30.5081 32.1834 28.1867 33.7335C26.8574 34.6209 26.0646 35.6082 25.2309 37.4148C24.7093 38.5446 24.6303 39.0018 24.6339 40.8734C24.6375 42.746 24.7191 43.2073 25.2548 44.3762C26.0798 46.1765 27.1043 47.401 28.9278 48.766C33.1075 51.895 38.772 53.3511 46.7882 53.3572C52.67 53.362 59.989 52.3677 66.3283 50.7027C68.4803 50.1375 70.4608 49.6251 70.7295 49.5638C71.246 49.4464 71.375 49.8053 71.5228 51.7702L71.5825 52.5647L69.5702 53.0862C53.2683 57.3107 36.4072 56.9037 26.8657 52.0551C26.2509 51.7427 23.4337 50.1479 20.6054 48.5111C15.5193 45.5678 13.7977 44.7544 12.6228 44.7401C9.35731 44.7 9.08811 49.8137 12.1132 54.4244C13.1035 55.9336 15.7992 58.5343 17.4685 59.5907C21.5312 62.1616 27.346 63.5689 33.9256 63.5732C38.4111 63.5761 40.8911 63.259 51.4599 61.3303C54.4616 60.7825 61.3166 59.3296 66.4401 58.155C68.5306 57.6758 70.2736 57.3107 70.3134 57.3436C70.5316 57.5241 69.454 59.0758 68.4045 60.0921C66.8237 61.6231 64.617 62.7859 62.5685 63.1671C61.6746 63.3335 60.9728 63.57 61.0085 63.6926C61.0445 63.8152 61.6972 63.9001 62.4587 63.8813C66.0486 63.7927 69.7312 61.508 71.6954 58.1511L72.5763 56.6458L74.5387 56.1039C79.1908 54.8199 86.5778 52.2337 91.3697 50.2115C94.3869 48.9381 97.0579 47.7615 97.5466 47.4902C97.7769 47.3624 99.5752 46.4502 101.543 45.4632C103.51 44.4761 106.227 43.1002 107.58 42.4053C113.208 39.5142 116.522 38.5165 120.547 38.5006C124.848 38.4838 127.22 39.3655 129.776 41.931C132.806 44.9735 133.329 48.7924 131.199 52.3254C129.078 55.8431 125.217 57.3305 121.49 56.0655C119.614 55.4288 119.419 55.1754 120.805 55.1754C121.923 55.1754 123.583 54.4907 124.514 53.6458C125.458 52.7892 126.097 51.248 126.203 49.5715C126.296 48.0929 126.241 47.7881 125.674 46.65C124.023 43.3381 120.078 42.3753 116.982 44.5288C115.961 45.2393 115.145 46.5783 114.812 48.0895C114.578 49.1522 114.592 49.5556 114.902 50.7588C116.353 56.3738 122.854 59.8179 128.169 57.7865C131.043 56.6885 133.02 54.7012 134.33 51.5935C135.009 49.9822 135.068 49.648 135.069 47.4568C135.07 45.282 135.009 44.9276 134.364 43.4114C132.241 38.4198 127.601 35.4159 121.442 35.0474C116.283 34.7387 111.968 36.0368 102.374 40.7846C99.2474 42.3317 96.6565 43.5976 96.6163 43.5976C96.576 43.5976 95.9075 43.8947 95.1303 44.2579C90.2616 46.5333 80.5346 50.0923 74.8743 51.6694C74.1023 51.8846 73.4362 52.0208 73.3942 51.972C73.3522 51.9234 73.2504 51.1665 73.1682 50.29L73.0188 48.6961L74.0893 48.3867C74.678 48.2167 75.9144 47.7892 76.8367 47.4366C80.4565 46.0534 85.0523 44.2112 86.1154 43.7172C86.7303 43.4316 88.6419 42.5485 90.3635 41.7546C93.0998 40.4929 97.52 38.2633 112.722 30.4774C116.819 28.3793 119.514 27.0905 123.532 25.3086C125.088 24.6187 126.562 23.9572 126.808 23.8385C127.054 23.72 128.211 23.2625 129.379 22.8221C135.612 20.4727 141.607 18.7065 145.555 18.0564C147.948 17.6623 153.646 17.608 155.36 17.9633C157.945 18.4991 160.114 19.4804 161.957 20.9488C165.059 23.4205 166.334 26.3082 165.613 29.2251C165.121 31.2118 164.258 32.5623 164.258 31.3452C164.258 30.5482 163.222 28.5223 162.386 27.686C161.939 27.2378 160.994 26.5738 160.288 26.2104C159.169 25.6349 158.759 25.5497 157.103 25.5497C155.44 25.5497 155.04 25.6337 153.895 26.2226C150.872 27.7777 149.281 31.083 149.946 34.4249C151.098 40.2155 156.215 44.2786 162.358 44.2786C165.845 44.2786 169.149 42.944 171.55 40.5658L173.029 39.1008L174.065 40.1864C176.459 42.6929 179.474 44.0312 183.152 44.2189C187.067 44.4189 190.061 43.2795 192.758 40.5628C195.033 38.2722 196.227 35.639 196.229 32.9071C196.234 28.3722 192.579 25.0473 188.11 25.5216C185.148 25.8358 183.088 27.518 182.03 30.4873L181.55 31.8313L181.192 31.2762C180.995 30.9709 180.664 30.128 180.456 29.4029C179.737 26.8905 180.384 24.8044 182.641 22.3547C184.28 20.5749 185.506 19.739 187.783 18.8475C190.25 17.8813 191.405 17.6988 195.037 17.7009C198.861 17.7029 202.799 18.2918 206.515 19.4176C211.568 20.9477 216.915 22.8087 218.924 23.7361C219.293 23.9064 220.249 24.3179 221.048 24.6505C224.14 25.9373 229.765 28.6349 235.134 31.4061C244.168 36.0688 250.998 39.5355 253.993 40.9787C257.04 42.4466 263.194 45.1867 263.445 45.1867C263.516 45.1867 263.891 45.3372 264.278 45.5211C265.137 45.9288 268.809 47.3052 271.243 48.1318C272.227 48.4659 273.026 48.8337 273.018 48.9492C272.924 50.4081 272.588 51.9972 272.372 51.9972C272.225 51.9972 271.66 51.8521 271.115 51.6748C270.571 51.4975 269.219 51.0771 268.113 50.7406C260.684 48.4825 252.393 45.1553 245.195 41.544C241.304 39.5916 237.378 37.6951 237.228 37.6951C237.159 37.6951 236.785 37.5471 236.398 37.3664C235.336 36.8708 233.135 36.1616 230.945 35.6088C228.336 34.9503 223.452 34.901 221.272 35.5112C214.972 37.2749 210.956 41.8752 210.969 47.3131C210.984 53.6903 215.322 58.3536 221.241 58.3536C225.198 58.3536 228.728 56.0678 230.549 52.3268C231.892 49.567 231.535 46.9472 229.55 44.9912C226.516 42.0019 221.219 43.4257 220.039 47.5479C219.002 51.1701 221.261 54.7032 224.896 55.1445L226.303 55.3155L225.415 55.7089C223.912 56.375 222.651 56.6027 221.147 56.4801C219.103 56.3137 217.566 55.4846 215.921 53.6619C214.232 51.7899 213.619 50.2789 213.59 47.9109C213.571 46.4514 213.668 45.9935 214.265 44.7043C215.432 42.186 217.733 40.1651 220.634 39.1124C222.086 38.585 222.617 38.5151 225.185 38.5126C230.173 38.5074 231.81 39.0638 241.953 44.2116C245.766 46.1465 249.337 47.9125 249.891 48.1363C250.444 48.3601 251.45 48.7987 252.126 49.1111C257.06 51.3888 265.008 54.2667 271.566 56.1498L273.453 56.6921L274.32 58.147C275.903 60.8038 277.701 62.2808 280.541 63.2563C282.603 63.9646 285.217 64.2429 285.217 63.7544C285.217 63.5101 284.779 63.3412 283.66 63.1535C280.758 62.6667 277.872 60.8258 276.243 58.4217C275.867 57.8674 275.595 57.3786 275.637 57.3359C275.68 57.293 277.425 57.6556 279.516 58.1414C287.179 59.9228 298.272 62.1051 304.333 63.024C307.555 63.5124 313.91 63.6872 316.806 63.3668C321.192 62.8817 325.518 61.4985 328.606 59.5938C329.371 59.1216 330.77 57.96 331.713 57.0122C334.484 54.2292 335.986 51.1331 336 48.1767C336.008 46.5751 335.562 45.5633 334.636 45.077C333.184 44.3145 331.722 44.8209 326.41 47.927C318.166 52.7475 316.86 53.3722 312.897 54.3922C303.17 56.8957 290.993 56.4969 276.97 53.2153L274.426 52.6199L274.562 51.1411C274.636 50.3279 274.751 49.6085 274.816 49.5427C274.88 49.4768 276.518 49.8505 278.454 50.3731C296.949 55.365 313.126 54.0067 319.074 46.9622C321.111 44.5488 321.885 42.1399 321.446 39.5796C321.095 37.5303 320.428 36.1998 319.047 34.79C316.799 32.496 314.369 31.7922 308.134 31.6301C303.48 31.5089 300.981 31.7704 296.623 32.8345C294.181 33.4306 290.245 34.7189 288.664 35.4395C288.163 35.6681 287.235 36.0622 286.603 36.3151C282.159 38.0935 277.566 41.2722 275.617 43.917C275.195 44.4904 274.684 44.9597 274.482 44.9597C273.949 44.9597 266.286 42.0756 263.641 40.8797C263.149 40.6572 262.294 40.274 261.741 40.0279C257.554 38.166 258.157 38.4699 232.339 25.2119C223.259 20.5492 219.494 18.7163 215.347 16.9413C213.994 16.3621 212.686 15.7926 212.44 15.6754C211.31 15.1369 206.193 13.1748 204.28 12.546C199.587 11.0039 194.348 9.99773 191.021 10C189.265 10.0011 185.86 10.5578 183.826 11.1762C179.839 12.388 175.198 15.502 173.485 18.1147C173.152 18.6226 173.143 18.6176 171.736 17.0743C168.499 13.524 163.981 11.2361 158.445 10.3435C155.892 9.9319 153.751 9.9378 150.652 10.365ZM46.0857 35.0842C54.6252 36.4479 64.4093 40.706 68.2272 44.7206C69.3082 45.8573 69.3487 45.8203 66.0056 46.749C53.6017 50.1949 40.9817 50.5518 34.0573 47.6525C31.5968 46.6223 29.1791 44.6443 28.3492 42.9823C27.0848 40.4506 28.3058 37.277 31.102 35.8265C31.6003 35.568 33.1149 35.1707 34.4676 34.9437C37.3882 34.4536 42.5249 34.5155 46.0857 35.0842ZM311.376 34.9553C315.162 35.5884 316.374 36.2495 317.584 38.3433C318.703 40.2783 318.365 42.4983 316.65 44.4768C315.832 45.42 313.832 46.8069 312.188 47.5715C306.592 50.1724 296.043 50.2907 284.658 47.88C280.563 47.013 276.944 45.9649 276.944 45.6459C276.944 45.4343 279.57 43.0836 280.744 42.2445C283.016 40.6198 287.04 38.7426 291.477 37.2366C295.624 35.8293 297.762 35.3618 303.215 34.6701C305.133 34.4268 309.031 34.563 311.376 34.9553Z"
+            fill="#B0C4E8"
+          />
+        </svg>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Etiam malesuada consequat
+          bibendum rhoncus ut ut. In vulputate cursus nunc habitant donec
+          posuere purus integer. Scelerisque risus sodales ullamcorper tempus.
+          Dictum amet tellus sit lectus amet. Pretium eget sed blandit curabitur
+          id quis id in. Suspendisse consectetur erat sed faucibus ipsum
+          fermentum. Id mauris tempus tempor dignissim arcu mattis mauris
+          tristique. Nulla ultrices pharetra pellentesque et. Phasellus aliquet
+          ut ornare eu fermentum volutpat viverra. Libero leo venenatis quam
+          vulputate in facilisi tempor. Commodo ut eros id netus hendrerit.
+          Libero tincidunt ultricies placerat fusce neque.
+        </p>
+      </div>
+    </section>
+    <section class="portfolio">
+      <div class="wrapper">
+        <div class="container">
+          <h3 class="text-l">Portfolio</h3>
+          <ul class="portfolio-tags">
+            <li>
+              <a class="tags-text active-tag capitalize" href="#">allt</a>
+            </li>
+            <li><a class="tags-text capitalize" href="#">asian</a></li>
+            <li><a class="tags-text capitalize" href="#">chicano</a></li>
+            <li><a class="tags-text capitalize" href="#">realism</a></li>
+            <li><a class="tags-text capitalize" href="#">tribal</a></li>
+            <li><a class="tags-text capitalize" href="#">old school</a></li>
+          </ul>
+          <div class="portfolio-image-cards"></div>
+        </div>
+        <div class="controls">
+          <a class="control-btn" href="#"
+            ><i class="fa-solid fa-chevron-left"></i
+          ></a>
+          <a class="control-btn control-active" href="#">1</a>
+          <a class="control-btn" href="#">2</a>
+          <a class="control-btn" href="#">3</a>
+          <a class="control-btn" href="#"
+            ><i class="fa-solid fa-chevron-right"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section class="faq">
+      <div class="wrapper">
+        <div class="faq-container">
+          <div class="faq-question" onclick="toggleAnswer(this)">
+            <h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+              vel.
+            </h4>
+            <i class="fa-solid fa-chevron-down faq-arrow"></i>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              dolores saepe voluptas! Harum consequatur explicabo, modi
+              voluptatum vitae eligendi cumque nihil reiciendis, eaque aliquid
+              perferendis laborum praesentium quis quisquam unde ducimus
+              excepturi non mollitia blanditiis ullam. Recusandae officiis hic
+              alias. Ut numquam temporibus libero reiciendis dolorem labore
+              ipsam quam iste?
+            </p>
+          </div>
+        </div>
+        <div class="faq-container">
+          <div class="faq-question" onclick="toggleAnswer(this)">
+            <h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+              vel.
+            </h4>
+            <i class="fa-solid fa-chevron-down faq-arrow"></i>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              dolores saepe voluptas! Harum consequatur explicabo, modi
+              voluptatum vitae eligendi cumque nihil reiciendis, eaque aliquid
+              perferendis laborum praesentium quis quisquam unde ducimus
+              excepturi non mollitia blanditiis ullam. Recusandae officiis hic
+              alias. Ut numquam temporibus libero reiciendis dolorem labore
+              ipsam quam iste?
+            </p>
+          </div>
+        </div>
+        <div class="faq-container">
+          <div class="faq-question" onclick="toggleAnswer(this)">
+            <h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+              vel.
+            </h4>
+            <i class="fa-solid fa-chevron-down faq-arrow"></i>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              dolores saepe voluptas! Harum consequatur explicabo, modi
+              voluptatum vitae eligendi cumque nihil reiciendis, eaque aliquid
+              perferendis laborum praesentium quis quisquam unde ducimus
+              excepturi non mollitia blanditiis ullam. Recusandae officiis hic
+              alias. Ut numquam temporibus libero reiciendis dolorem labore
+              ipsam quam iste?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact-container">
+        <div class="card-container">
+          <div class="contact-card">
+            <i class="contact-icon fa-solid fa-calendar-days"></i>
+            <p>Tis - Lör : 11:00 - 18:00</p>
+            <p>Sön - Mån : <span class="light-blue">STÄNGT</span></p>
+          </div>
+          <div class="contact-card">
+            <i class="contact-icon fa-solid fa-location-dot"></i>
+            <p>Smedjegatan 22,</p>
+            <p>553 20 Jönköping</p>
+          </div>
+          <div class="contact-card">
+            <i class="contact-icon fa-brands fa-instagram"></i>
+            <p>@emranoart</p>
+            <p>@broderblacktatuering</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="wrapper">
+        <div class="footer-container">
+          <h4 class="footer-logo uppercase">emran</h4>
+          <hr />
+          <div class="link-container">
+            <ul class="footer-link">
+              <li class="footer-item">&copy;</li>
+              <li class="footer-item capitalize">
+                <a href="">privacy</a> - <a href="">terms</a>
+              </li>
+            </ul>
+            <p class="credit capitalize">made by @simon sjöö</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./script/faq.js"></script>
+  </body>
+</html>

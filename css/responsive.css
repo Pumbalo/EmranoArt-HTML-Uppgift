@@ -1,0 +1,141 @@
+@media screen and (max-width: 768px) {
+  .hamburger-toggle {
+    display: block !important;
+  }
+
+  .nav-link,
+  nav button {
+    display: none !important;
+  }
+
+  .header-title {
+    font-size: var(--font-xxl) !important;
+  }
+
+  .card {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  div.portfolio-image-cards {
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+  }
+
+  .card {
+    width: 100%;
+    height: 140px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  section.about {
+    flex-direction: column;
+    width: 50%;
+  }
+  .about-image {
+    width: 60%;
+  }
+
+  .container {
+    padding: 0 !important;
+  }
+
+  div.portfolio-image-cards {
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+  }
+  .portfolio-tags {
+    gap: var(--font-xl);
+    overflow: scroll;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .side-nav-logo {
+    display: none;
+  }
+
+  .side-nav-item a {
+    display: none;
+  }
+
+  nav.side-nav {
+    height: 5rem;
+    width: 100vw;
+    bottom: 0 !important;
+  }
+
+  .side-nav-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .admin-navbar {
+    bottom: 0;
+    width: 100vw;
+    height: 5rem;
+  }
+
+  .side-nav-logo {
+    display: none;
+  }
+
+  .admin-navbar-nav {
+    flex-direction: row;
+  }
+
+  .admin-nav-link {
+    justify-content: center;
+  }
+
+  main {
+    margin: 0;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 880px) {
+  .admin-navbar {
+    top: 0;
+    width: 5rem;
+    height: 100vh;
+  }
+
+  .admin-navbar:hover {
+    width: 16rem;
+  }
+
+  .admin-navbar:hover .link-text {
+    display: inline;
+  }
+
+  .admin-navbar:hover .side-nav-logo i {
+    margin-left: 11rem;
+  }
+
+  .admin-navbar:hover .logo-text {
+    left: 0px;
+  }
+}

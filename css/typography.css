@@ -1,0 +1,20 @@
+.text-mid {
+  font-size: 3em;
+  color: var(--color-light);
+}
+
+.text-l {
+  font-size: 4em;
+  color: var(--color-light);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+.uppercase {
+  text-transform: uppercase;
+}
